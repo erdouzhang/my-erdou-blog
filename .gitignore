@@ -6,3 +6,4 @@ js/min
 config.json
 .gulp
 node_modules
+.gitignore
