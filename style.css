@@ -1,16 +1,21 @@
+@font-face {
+  font-family: 'tours';
+  src: url("../font/toures.ttf");
+}
+@font-face {
+  font-family: 'small';
+  src: url("../font/small.ttf");
+}
 html {
-  margin: 0;
-  padding: 0;
+  font-size: 62.5%;
+  width: 100%;
 }
 html body {
-  background-color: #fff;
+  font-family: 'tours';
 }
 html body h1 {
-  color: green;
-  line-height: 10px;
-  background-color: #FFF;
-}
-html body section {
-  font-size: 1rem;
-  color: aqua;
+  font-family: 'small';
+  font-size: 3em;
+  padding: 10px 0;
+  text-align: center;
 }
